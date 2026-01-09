@@ -38,11 +38,11 @@ export default function ServicesPage() {
               <p className="text-slate-900 font-medium mb-4">Outcomes:</p>
               <ul className="space-y-3 mb-8">
                 {[
-                  'Clear articulation of who you serve and why you're different',
-                  'Homepage that immediately communicates value',
-                  'Service pages that answer real client questions',
-                  'Calls-to-action that generate qualified inquiries',
-                  'Website structure that guides visitors to take action'
+                  "Clear articulation of who you serve and why you're different",
+                  "Homepage that immediately communicates value",
+                  "Service pages that answer real client questions",
+                  "Calls-to-action that generate qualified inquiries",
+                  "Website structure that guides visitors to take action"
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
