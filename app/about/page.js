@@ -128,11 +128,11 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              'Chase trends or push platforms you don't need',
+              'Chase trends or push platforms you don\'t need',
               'Promise overnight results or guaranteed rankings',
               'Use aggressive or "growth hacker" tactics',
-              'Create content that doesn't reflect your firm's voice',
-              'Build dependency on tools you can't manage',
+              'Create content that doesn\'t reflect your firm\'s voice',
+              'Build dependency on tools you can\'t manage',
               'Lock you into long-term contracts'
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
@@ -160,7 +160,7 @@ export default function AboutPage() {
                   'You have a strong reputation but inconsistent marketing',
                   'You value credibility and quality over volume',
                   'You want systems, not just campaigns',
-                  'You're ready to invest in building a foundation',
+                  'You\'re ready to invest in building a foundation',
                   'You prefer working with operators, not salespeople'
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -179,9 +179,9 @@ export default function AboutPage() {
                 {[
                   'You need results in 30 days or less',
                   'You want someone to "just handle it" without involvement',
-                  'You're looking for the cheapest option',
+                  'You\'re looking for the cheapest option',
                   'You want aggressive, high-volume tactics',
-                  'Your firm isn't ready to invest in marketing'
+                  'Your firm isn\'t ready to invest in marketing'
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
                     <svg className="w-5 h-5 text-slate-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
